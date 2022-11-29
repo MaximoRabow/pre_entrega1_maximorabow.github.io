@@ -9,7 +9,8 @@ let cantidadDeHabitaciones = prompt ("Cantidad de Habitaciones");
     for (let i = 1; i <= cantidadDeHabitaciones; i++) {
         if (i <= 10) {
             console.log ("Hay disponibilidad");
-            alert ("Disponibilidad confirmada")
+            alert ("Disponibilidad confirmada");
+            break;
         } else if (i > 10) {
             console.log ("No hay disponibilidad")
             alert ("No contamos con la disponibilidad necesaria")
