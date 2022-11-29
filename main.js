@@ -6,6 +6,8 @@ let cantidadpasajeros = prompt ("Cantidad de pasajeros");
     console.log ("Pasajeros" + " " + cantidadpasajeros);
 let cantidadDeHabitaciones = prompt ("Cantidad de Habitaciones");
     console.log ("Habitaciones" + " " + cantidadDeHabitaciones);
+let tipodeHabitacion = prompt ("Tipo de Habitación" + " " + "Doble, Triple, Cuadruple");
+    console.log ("Tipo de habitación" + " " + tipodeHabitacion);
     for (let i = 1; i <= cantidadDeHabitaciones; i++) {
         if (i <= 10) {
             console.log ("Hay disponibilidad");
@@ -16,11 +18,9 @@ let cantidadDeHabitaciones = prompt ("Cantidad de Habitaciones");
             alert ("No contamos con la disponibilidad necesaria")
         }
     }
-let tipodeHabitacion = prompt ("Tipo de Habitación" + " " + "Doble, Triple, Cuadruple");
-    console.log ("Tipo de habitación" + " " + tipodeHabitacion);
-let fechaDeIngreso = parseInt (prompt ("Check in"));
+let fechaDeIngreso = parseInt (prompt ("Fecha de ingreso"));
     console.log ("Fecha de Ingreso" + " " + fechaDeIngreso);
-let fechaDeEgreso = parseInt (prompt ("Check out"));
+let fechaDeEgreso = parseInt (prompt ("Fecha de salida"));
     console.log ("Fecha de Egreso" + " " + fechaDeEgreso);
 
 //Recuento cantidad de noches y precio estadia
